@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if(!isGameOver)
+        if(!isGameOver)//질문하기!!!
         {
             
             surviveTime += Time.deltaTime;
@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
         else
         {
 
-            gameoverText.SetActive(true);
+            
 
             if( Input.GetKeyDown(KeyCode.R) )
             {
